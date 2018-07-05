@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<plugin someAttr1="value1" version="0.1.6" xmlns="someNamespace" xmlns:someAttr2="value2">
+<?xml version="1.0" encoding="utf-8"?>
+<plugin someAttr1="value1" version="0.1.7" xmlns="someNamespace" xmlns:someAttr2="value2">
     <tagName1>Some text</tagName1>
     <tagName2>
         Some text 2
     </tagName2>
-    <dependency id="cordova-plugin-appcenter-shared" version="0.1.6"/>
     <tagName2>
         Some text 2
     </tagName2>
+    <dependency id="cordova-plugin-appcenter-shared" version="0.1.7"/>
 </plugin>
