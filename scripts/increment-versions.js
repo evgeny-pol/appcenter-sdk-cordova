@@ -27,8 +27,6 @@ for (const moduleName of moduleNames) {
             throw err;
         }
 
-        const util = require('util'); console.log(util.inspect(parsedXml, false, null));
-
         console.log("current version: " + parsedXml.plugin["$"].version);
         parsedXml.plugin["$"].version = semver.inc(parsedXml.plugin["$"].version, "patch");
         console.log("new version: " + parsedXml.plugin["$"].version);
