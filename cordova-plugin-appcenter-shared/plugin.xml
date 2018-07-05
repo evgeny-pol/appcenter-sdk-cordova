@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root someAttr1="value1" version="0.1.6" xmlns="someNamespace" xmlns:someAttr2="value2">
+<plugin someAttr1="value1" version="0.1.6" xmlns="someNamespace" xmlns:someAttr2="value2">
     <tagName1>Some text</tagName1>
     <tagName2>
         Some text 2
@@ -7,4 +7,4 @@
     <tagName2>
         Some text 2
     </tagName2>
-</root>
+</plugin>
