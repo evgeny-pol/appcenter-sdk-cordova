@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin id="cordova-plugin-appcenter-crashes" version="0.1.7" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-appcenter-crashes" version="0.1.8" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>App Center Crashes for Cordova</name>
     <description>
         Provides Microsoft Azure App Center Crashes client for Cordova
@@ -11,7 +11,7 @@
     <engine name="cordova-android" version=">=4.1.0"/>
     <engine name="cordova" version=">=6.4.0"/>
     <engine name="cordova-ios" version=">=4.3.0"/>
-    <dependency id="cordova-plugin-appcenter-shared" version="0.1.7"/>
+    <dependency id="cordova-plugin-appcenter-shared" version="0.1.8"/>
     <js-module name="Crashes" src="www/Crashes.js">
         <clobbers target="AppCenter.Crashes"/>
     </js-module>
